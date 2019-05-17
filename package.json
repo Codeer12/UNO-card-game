@@ -1,0 +1,24 @@
+{
+  "name": "uno-card-game",
+  "version": "1.0.0",
+  "description": "The UNO card game built in MERN stack. <br/>A online UNO card game version built with Node, React and SocketIO.<br/> The application consist mainly of three pages:\r * [Home] In this page you can select or create a room to play\r * [Hall] In this page you wait for more people join to that room to start the game, if needed. (theres a chat too)\r * [Game] The actual game, in this page you play UNO with everyone in that room.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start --prefix /server"
+	"start2": "npm start --prefix /client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrooaugusto/UNO-card-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrooaugusto/UNO-card-game/issues"
+  },
+  "homepage": "https://github.com/pedrooaugusto/UNO-card-game#readme",
+  "dependencies": {
+    "heroku": "^7.24.3"
+  },
+  "devDependencies": {}
+}
